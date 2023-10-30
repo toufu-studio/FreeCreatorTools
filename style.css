@@ -45,27 +45,15 @@ img {
 /* style.css */
 /* 通常のスタイル（横幅が800px以上の場合に適用） */
 .white-box {
-    width: 1862px;
-    height: 600px;
-    background-color: rgba(218, 218, 218, 0.329);
-    position: absolute;
-    top: 290px;
-    left: 18px;
-    z-index: -1;
+    width: 1862px; /* 四角形の幅 */
+    height: 600px; /* 四角形の高さ */
+    background-color: rgba(218, 218, 218, 0.329); /* 背景色を白に設定 */
+    position: absolute; /* 位置を絶対位置に設定 */
+    top: 290px; /* 上端からの位置 */
+    left: 18px; /* 左端からの位置 */
+    z-index: -1; /* 他の要素の下に配置 */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-
-/* 800px未満の画面サイズに対するスタイル */
-@media (max-width: 800px) {
-    .white-box {
-        width: 100%; /* 画面幅に合わせる */
-        height: 300px; /* 適切な高さに調整 */
-        top: 100px; /* 適切な位置に調整 */
-        left: 0; /* 左端に合わせる */
-        box-shadow: none; /* ボックスシャドウを削除 */
-    }
-}
-
 
 h1 {
     color: rgb(63, 63, 63); /* テキスト色を赤色に設定 */
