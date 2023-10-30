@@ -1,0 +1,235 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 220px;
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.middle {
+    flex: 1;
+    text-align: center;
+}
+
+.right {
+    flex: 1;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+/* 画像を非表示にするためのスタイル */
+#noimage.hidden {
+    display: none;
+}
+#noimage1.hidden {
+    display: none;
+}
+
+/* style.css */
+.white-box {
+    width: 1862px; /* 四角形の幅 */
+    height: 600px; /* 四角形の高さ */
+    background-color: rgba(218, 218, 218, 0.329); /* 背景色を白に設定 */
+    position: absolute; /* 位置を絶対位置に設定 */
+    top: 290px; /* 上端からの位置 */
+    left: 18px; /* 左端からの位置 */
+    z-index: -1; /* 他の要素の下に配置 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: rgb(63, 63, 63); /* テキスト色を赤色に設定 */
+}
+h2 {
+    color: rgb(63, 63, 63); /* テキスト色を赤色に設定 */
+}
+
+.compressbtn {
+    background-color: #3498db; /* ボタンの背景色を指定 */
+    color: #ffffff; /* テキストの色を指定 */
+    padding: 10px 20px; /* パディングを追加してボタンのサイズを調整 */
+    border: none; /* ボーダーを非表示にする */
+    border-radius: 5px; /* ボタンの角を丸くする */
+    font-size: 16px; /* フォントサイズを指定 */
+    cursor: pointer; /* カーソルをポインターに変更してホバーエフェクトを示す */
+
+    /* ホバーエフェクトの設定 */
+    transition: background-color 0.3s;
+}
+
+.compressbtn:hover {
+    background-color: #2980b9; /* ホバー時の背景色を指定 */
+}
+
+/* style.css */
+.fileInput {
+    display: none; /* デフォルトのファイル選択ボタンを非表示にする */
+}
+
+.filelabel {
+    background-color: #3498db; /* ボタンの背景色を指定 */
+    color: #ffffff; /* テキストの色を指定 */
+    padding: 10px 20px; /* パディングを追加してボタンのサイズを調整 */
+    border: none; /* ボーダーを非表示にする */
+    border-radius: 5px; /* ボタンの角を丸くする */
+    font-size: 16px; /* フォントサイズを指定 */
+    cursor: pointer; /* カーソルをポインターに変更 */
+
+    position: relative;
+    top: 7px;
+
+    /* クリック時のスタイル */
+    &:active {
+        background-color: #2980b9; /* クリック時の背景色を指定 */
+    }
+}
+
+/* header */
+header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 1px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 101%;
+    height: 132px;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.logoimg {
+    width: 240px;
+    height: 140px;
+}
+
+/*フッター*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 25px 0;
+    width: 101%;
+    
+    position: absolute; /* 追加: フッターの位置を絶対位置に設定 */
+    bottom: -100px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*========= body背景色の変化CSS ===============*/
+
+body {
+	width: 99%;
+	height: 100vh;
+	background:linear-gradient(45deg, #aef3ff,#a2d2ff,#918fff);/*グラデーションを定義*/
+	background-size: 200% 200%;/*サイズを大きくひきのばす*/
+	animation: bggradient 20s ease infinite;
+
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes bggradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* styles.css */
+body {
+    margin: 0;
+    overflow: auto;
+    overflow-x: hidden; /* 横スクロールバーを非表示 */
+}
+
+/*エフェクト*/
+#particles-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: -1;
+}
+
+#bordered-text {
+    border: 2px solid #000; /* 枠線の幅、スタイル、色を指定 */
+    padding: 10px; /* テキストと枠線の間に余白を設定 */
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="image/tofuuedake.ico">
+    <title>画像圧縮</title> 
+</head>
+<div id="particles-container"></div>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logoimg" id="titlelogo" src="image/FreeCreatorTools.ico" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="terms.html">Terms of Use</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="white-box"></div>
+        <div class="left">
+            <h2>圧縮前の画像</h2>
+            <img id="noimage1" src="image/kawamae.ico" alt="NoImage1">
+            <div id="imagePreview"></div>
+            <input type="file" class="fileInput" id="imageInput" accept="image/*">
+            <label for="imageInput" class="filelabel">ファイルを選択</label>
+        </div>
+        <div class="middle">
+            <h1>ImageCompressionService</h1>
+            <h4 id="bordered-text">画像の画質を下げることができます。容量削減などにどうぞ</h4>
+            <button class="compressbtn" id="compressButton" disabled>圧縮</button>
+            <h1></h1>
+            <input type="range" id="qualitySlider" min="0" max="1" step="0.01" value="1">
+            <p>品質: <span id="qualityValue">1</span></p>
+            <h3 class="outlined-text">How to use</h3>
+            <h4>品質1.00=サイズ約3.91MB→約239KB<br>品質0.50=サイズ約3.91MB→約22.4KB</h4>
+            <h5>スライダーは一度クリックしてから矢印キーで微調整することができます。<br>必ず利用規約を確認してからご利用ください。</h5>
+        </div>
+        <div class="right">
+            <h2>圧縮後の画像</h2>
+            <img id="compressedImage" src="cimg" alt="">
+            <img id="noimage" src="image/kawa.ico" alt="NoImage">
+            <button class="compressbtn" id="downloadButton" disabled>DOWNLOAD</button>
+        </div>
+    </div>
+    <script src="backgroundeffect.js"></script>
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Toufu_Studio</p>
+            <ul>
+                <li><a href="terms.html">利用規約</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
