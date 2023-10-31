@@ -2,7 +2,7 @@
   .same-size-element {
     width: 100vw; /* ビューポートの幅と同じ幅 */
     height: 100vh; /* ビューポートの高さと同じ高さ */
-    font-size: 10px; /* フォントサイズを固定値に設定 */
+    font-size: 10px !important; /* フォントサイズを固定値に設定 */
   }
 </style>
 
