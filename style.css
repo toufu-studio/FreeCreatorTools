@@ -157,7 +157,7 @@ footer {
     padding: 25px 0;
     width: 101%;
     
-    position: absolute; /* 追加: フッターの位置を絶対位置に設定 */
+
     bottom: -100px;
 }
 
