@@ -64,6 +64,13 @@ img {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+@media (min-width: 768px) {
+    .white-box {
+        width: 1862px; /* 固定の幅 */
+        height: 600px; /* 固定の高さ */
+    }
+}
+
 h1 {
     color: rgb(63, 63, 63); /* テキスト色を赤色に設定 */
 }
