@@ -48,7 +48,7 @@ img {
     width: 1862px; /* 四角形の幅 */
     height: 600px; /* 四角形の高さ */
     background-color: rgba(218, 218, 218, 0.329); /* 背景色を白に設定 */
-    width: 100%;
+    width: 50%;
     top: 290px; /* 上端からの位置 */
     left: 18px; /* 左端からの位置 */
     z-index: -1; /* 他の要素の下に配置 */
