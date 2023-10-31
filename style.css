@@ -1,12 +1,3 @@
-<style>
-  .same-size-element {
-    width: 100vw; /* ビューポートの幅と同じ幅 */
-    height: 100vh; /* ビューポートの高さと同じ高さ */
-  }
-</style>
-
-
-
 body {
     font-family: Arial, sans-serif;
 }
