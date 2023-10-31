@@ -1,10 +1,10 @@
 <style>
   .same-size-element {
-    width: 100px; /* 幅を固定 */
-    height: 100px; /* 高さを固定 */
-    background-color: #f0f0f0; /* 背景色は例として追加 */
+    width: 100vw; /* ビューポートの幅と同じ幅 */
+    height: 100vh; /* ビューポートの高さと同じ高さ */
   }
 </style>
+
 
 
 body {
