@@ -1,3 +1,10 @@
+@media (max-width: 800px) {
+  div {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 body {
     font-family: Arial, sans-serif;
 }
