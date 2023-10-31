@@ -1,8 +1,7 @@
-@media (max-width: 800px) {
+@media (max-width: 1,920px) {
   div {
-    width: 200px;
-    height: 200px;
-    font-size: 10px;
+    width: 100px;
+    height: 100px;
   }
 }
 
