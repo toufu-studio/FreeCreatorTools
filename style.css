@@ -1,9 +1,11 @@
-@media (min-width: 800px) {
-  div {
-    width: 100px;
-    height: 100px;
+<style>
+  .same-size-element {
+    width: 100px; /* 幅を固定 */
+    height: 100px; /* 高さを固定 */
+    background-color: #f0f0f0; /* 背景色は例として追加 */
   }
-}
+</style>
+
 
 body {
     font-family: Arial, sans-serif;
