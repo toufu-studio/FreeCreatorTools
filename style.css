@@ -62,13 +62,7 @@ img {
     left: 18px; /* 左端からの位置 */
     z-index: -1; /* 他の要素の下に配置 */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-@media (min-width: 768px) {
-    .white-box {
-        width: 1862px; /* 固定の幅 */
-        height: 600px; /* 固定の高さ */
-    }
+    display: flex;
 }
 
 h1 {
