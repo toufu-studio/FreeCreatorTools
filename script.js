@@ -117,9 +117,4 @@ document.querySelector('.column').addEventListener('click', function() {
     window.location.href = '別のページのURL.html'; // リンク先のURLを指定してください
 });
 
-    document.addEventListener('DOMContentLoaded', function() {
-  document.body.style.overflowX = 'hidden';
-});
-
-
 });
