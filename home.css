@@ -1,9 +1,8 @@
 .centered-text {
     text-align: center;
-    top: 285px;
-    left: 888px;
-    padding-top: 155px;
     position: absolute;
+    top: 30%;
+    left: 50%;
   }
 
 .container {
